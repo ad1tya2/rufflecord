@@ -9,7 +9,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `RuffleCord`,
   },
   plugins: [
     {
@@ -17,18 +17,18 @@ module.exports = {
       // See the theme's README for all available options
       options: {},
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
+//     {
+//       resolve: `gatsby-plugin-google-analytics`,
+//       options: {
+//         trackingId: process.env.GOOGLE_ANALYTICS_ID,
+//       },
+//     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `RuffleCord - A hub for development`,
+        short_name: `RuffleCord`,
+        description: `Here at RuffleCord We offer development services for discord bots, websites and minecraft servers`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
