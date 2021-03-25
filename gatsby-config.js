@@ -6,6 +6,19 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
+     siteTitle: `RuffleCord`,
+    // Default title of the page
+    // Can be used for e.g. JSONLD
+    siteHeadline: `RuffleCord`,
+    // Will be used to generate absolute URLs for og:image etc.
+    // Used for SEO
+    siteDescription: `RuffleCord's website :D`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `ad1tya2`,
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
